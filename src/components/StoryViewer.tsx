@@ -269,7 +269,7 @@ const StoryViewer = () => {
 
   const handleShare = (e: React.MouseEvent) => {
     e.stopPropagation();
-    const url = `${window.location.origin}${import.meta.env.BASE_URL}stories/${storyKey}`;
+    const url = `${window.location.origin}/stories/${storyKey}`;
     navigator.clipboard.writeText(url).then(() => {
       toast(language === "pt" ? "Link copiado!" : "Link copied!");
     });
