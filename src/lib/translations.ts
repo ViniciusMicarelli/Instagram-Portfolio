@@ -1,4 +1,4 @@
-﻿export type Language = "pt" | "en";
+export type Language = "pt" | "en";
 
 export interface StorySlide {
   title: string;
@@ -48,6 +48,8 @@ const icons = {
   mongodb: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   git: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   docker: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+  rabbitmq: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg",
+  redis: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
   linkedin: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
 };
 
@@ -102,7 +104,7 @@ export const translations: Record<Language, TranslationData> = {
       technologies: [
         {
           title: "🐍 Python & Frameworks",
-          description: "FastAPI, Django e Streamlit compõem meu stack principal. Desenvolvimento de APIs escaláveis, aplicações web robustas e dashboards interativos de dados.",
+          description: "FastAPI, Django Streamlit, Agno e LangChain compõem meu stack principal. Desenvolvimento de APIs escaláveis, aplicações web robustas e dashboards interativos de dados.",
           image: icons.python,
         },
         {
@@ -111,8 +113,8 @@ export const translations: Record<Language, TranslationData> = {
           image: icons.react,
         },
         {
-          title: "🗄️ Bancos de Dados",
-          description: "PostgreSQL para dados relacionais, MongoDB para documentos NoSQL. Modelagem, queries otimizadas, migrations e integração com ORMs como SQLAlchemy.",
+          title: "🗄️ Bancos de Dados & Middleware",
+          description: "Sólida experiência com PostgreSQL e MongoDB, além de implementação de cache-aside com Redis e mensageria distribuída com RabbitMQ.",
           image: icons.postgresql,
         },
         {
@@ -143,7 +145,7 @@ export const translations: Record<Language, TranslationData> = {
       aboutMe: [
         {
           title: "👨‍💻 Quem sou eu?",
-          description: "Engenheiro de Computação formado pela FIAP, apaixonado por tecnologia e desenvolvimento de software. Atuo como Desenvolvedor Python na Qualiconsig, criando soluções backend escaláveis.",
+          description: "Engenheiro de Computação formado pela FIAP, apaixonado por tecnologia e desenvolvimento de software. Atuo como analista de sistemas Jr na Bioma Genetics, criando soluções backend escaláveis.",
           link: "https://github.com/ViniciusMicarelli",
           image: icons.github,
         },
@@ -237,7 +239,7 @@ export const translations: Record<Language, TranslationData> = {
       technologies: [
         {
           title: "🐍 Python & Frameworks",
-          description: "FastAPI, Django, and Streamlit make up my core stack. Building scalable APIs, robust web apps, and interactive data dashboards.",
+          description: "FastAPI, Django, Streamlit, Agno and LangChain make up my core stack. Building scalable APIs, robust web apps, and interactive data dashboards.",
           image: icons.python,
         },
         {
@@ -246,8 +248,8 @@ export const translations: Record<Language, TranslationData> = {
           image: icons.react,
         },
         {
-          title: "🗄️ Databases",
-          description: "PostgreSQL for relational data, MongoDB for NoSQL documents. Data modeling, optimized queries, migrations, and ORM integration with SQLAlchemy.",
+          title: "🗄️ Databases & Middleware",
+          description: "Solid experience with PostgreSQL and MongoDB, along with cache-aside implementation using Redis and distributed messaging with RabbitMQ.",
           image: icons.postgresql,
         },
         {
@@ -278,7 +280,7 @@ export const translations: Record<Language, TranslationData> = {
       aboutMe: [
         {
           title: "👨‍💻 Who am I?",
-          description: "Computer Engineer graduated from FIAP, passionate about technology and software development. Currently working as a Python Developer at Qualiconsig, building scalable backend solutions.",
+          description: "Computer Engineer graduated from FIAP, passionate about technology and software development. Currently working as a systems analyst jr at Bioma Genetics, creating scalable backend solutions.",
           link: "https://github.com/ViniciusMicarelli",
           image: icons.github,
         },
