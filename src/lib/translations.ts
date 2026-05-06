@@ -171,7 +171,7 @@ export const translations: Record<Language, TranslationData> = {
         likes: 245,
         comments: 42,
         image: postBioma,
-        date: "10 de maio de 2026",
+        date: "06 de abril de 2026",
       },
       {
         caption: "🤖 Próximo passo desbloqueado: Pós-graduação em Machine Learning Engineering pela FIAP! Pronto para mergulhar no universo de IA, redes neurais e LLMs.\n\n#MachineLearning #AI #FIAP #PostGrad #DeepLearning #MLEngineering",
@@ -306,7 +306,7 @@ export const translations: Record<Language, TranslationData> = {
         likes: 245,
         comments: 42,
         image: postBioma,
-        date: "May 10, 2026",
+        date: "April 06, 2026",
       },
       {
         caption: "🤖 Next level unlocked: Postgraduate in Machine Learning Engineering at FIAP! Ready to dive into AI, neural networks, and LLMs.\n\n#MachineLearning #AI #FIAP #PostGrad #DeepLearning #MLEngineering",
